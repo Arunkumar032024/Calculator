@@ -13,36 +13,36 @@
                 <h2>Calc</h2>
             </div>
             <div class="display">
-                <input type="text" name="dispaly" readonly>
+                <input type="text" name="display">
             </div>
             <div class="buttons">
                 <div>
-                    <input type="button" value="7">
-                    <input type="button" value="8">
-                    <input type="button" value="9">
-                    <input type="button" value="DEL" id="del">
+                    <input type="button" value="7" onclick="inputValue('7')">
+                    <input type="button" value="8" onclick="inputValue('8')">
+                    <input type="button" value="9" onclick="inputValue('9')">
+                    <input type="button" value="DEL" id="del" onclick="deleteValue()">
                 </div>
                 <div>
-                    <input type="button" value="4">
-                    <input type="button" value="5">
-                    <input type="button" value="6">
-                    <input type="button" value="+">
+                    <input type="button" value="4" onclick="inputValue('4')">
+                    <input type="button" value="5" onclick="inputValue('5')">
+                    <input type="button" value="6" onclick="inputValue('6')">
+                    <input type="button" value="+" onclick="inputValue('+')">
                 </div>
                 <div>
-                    <input type="button" value="1">
-                    <input type="button" value="2">
-                    <input type="button" value="3">
-                    <input type="button" value="-">
+                    <input type="button" value="1" onclick="inputValue('1')">
+                    <input type="button" value="2" onclick="inputValue('2')">
+                    <input type="button" value="3" onclick="inputValue('3')">
+                    <input type="button" value="-" onclick="inputValue('-')">
                 </div>
                 <div>
-                    <input type="button" value=".">
-                    <input type="button" value="0">
-                    <input type="button" value="/">
-                    <input type="button" value="*">
+                    <input type="button" value="." onclick="inputValue('.')">
+                    <input type="button" value="0" onclick="inputValue('0')">
+                    <input type="button" value="/" onclick="inputValue('/')">
+                    <input type="button" value="*" onclick="inputValue('*')">
                 </div>
                 <div>
-                    <input type="button" value="RESET" id="reset">
-                    <input type="button" value="=" id="equal">
+                    <input type="button" value="RESET" id="reset" onclick="resetValue()">
+                    <input type="button" value="=" id="equal" onclick="evaluateResult()">
                 </div>
             </div>
         </div>
