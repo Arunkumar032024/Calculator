@@ -14,6 +14,7 @@ var operation;
 
 progress.addEventListener('click', () => {
     if(progress.value > 33 && progress.value < 67){
+        alert('2');
         container.style.background = "#00224d";
         displayDiv.style.background = "#5d0e41";
         btns.style.background = "#5d0e41";
@@ -27,6 +28,7 @@ progress.addEventListener('click', () => {
         equal.style.background = "#a0153e";
         progress.style.background = "#5d0e41";
     }else if(progress.value > 66 && progress.value < 101){
+        alert('3');
         container.style.background = "#7aa2e3";
         displayDiv.style.background = "#6ad4dd";
         btns.style.background = "#6ad4dd";
@@ -42,6 +44,7 @@ progress.addEventListener('click', () => {
         equal.style.background = "#97e7e1";
         progress.style.background = "#6ad4dd";
     }else{
+        alert('1');
         container.style.background = "#453f78";
         displayDiv.style.background = "#795458";
         btns.style.background = "#795458";
