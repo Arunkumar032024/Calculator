@@ -10,3 +10,6 @@ Add javascript functionality to the calculator, now it will work properly as an 
 
 <br>
 Add 3 different theme that is change by a switchbar button.
+
+<br>
+Add history save and clear functionality
