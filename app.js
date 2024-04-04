@@ -1,6 +1,5 @@
 // take input value from the display input field 
 var display = document.querySelector('input[name="display"]');
-const progress = document.querySelector('#progress');
 const container = document.querySelector('.container');
 const input = document.querySelector('.display input');
 const btns = document.querySelector('.buttons');
@@ -11,57 +10,59 @@ const reset = document.querySelector('#reset');
 const del = document.querySelector('#del');
 const equal = document.querySelector('#equal');
 var operation;
+const progress = document.querySelector('.switch-btn')
+const btn1 = document.querySelector("#btn-1");
+const btn2 = document.querySelector("#btn-2");
+const btn3 = document.querySelector("#btn-3");
 
-progress.addEventListener('click', () => {
-    if(progress.value > 33 && progress.value < 67){
-        alert('2');
-        container.style.background = "#00224d";
-        displayDiv.style.background = "#5d0e41";
-        btns.style.background = "#5d0e41";
-        history.style.background = "#5d0e41";
-        btnsInput.forEach(btnInput => {
-            btnInput.style.background = "#ff204e";
-            btnInput.style.color = "#fff";
-        });
-        reset.style.background = "#00224d";
-        del.style.background = "#00224d";
-        equal.style.background = "#a0153e";
-        progress.style.background = "#5d0e41";
-    }else if(progress.value > 66 && progress.value < 101){
-        alert('3');
-        container.style.background = "#7aa2e3";
-        displayDiv.style.background = "#6ad4dd";
-        btns.style.background = "#6ad4dd";
-        history.style.background = "#6ad4dd";
-        btnsInput.forEach(btnInput => {
-            btnInput.style.background = "#f8f6f3";
-            btnInput.style.color = "#000";
-        });
-        reset.style.background = "#7aa2e3";
-        reset.style.color = "#fff";
-        del.style.background = "#7aa2e3";
-        del.style.color = "#fff";
-        equal.style.background = "#97e7e1";
-        progress.style.background = "#6ad4dd";
-    }else{
-        alert('1');
-        container.style.background = "#453f78";
-        displayDiv.style.background = "#795458";
-        btns.style.background = "#795458";
-        history.style.background = "#795458";
-        btnsInput.forEach(btnInput => {
-            btnInput.style.background = "#ffc94a";
-            btnInput.style.color = "#000";
-        });
-        reset.style.background = "#453f78";
-        reset.style.color = "#fff";
-        del.style.background = "#453f78";
-        del.style.color = "#fff";
-        equal.style.background = "#c08b5c";
-        equal.style.color = "#fff";
-    }
+btn1.addEventListener('click', () => {
+    container.style.background = "#453f78";
+    displayDiv.style.background = "#795458";
+    btns.style.background = "#795458";
+    history.style.background = "#795458";
+    btnsInput.forEach(btnInput => {
+        btnInput.style.background = "#ffc94a";
+        btnInput.style.color = "#000";
+    });
+    reset.style.background = "#453f78";
+    reset.style.color = "#fff";
+    del.style.background = "#453f78";
+    del.style.color = "#fff";
+    equal.style.background = "#c08b5c";
+    equal.style.color = "#fff";
+    progress.style.background = "#795458";
 });
 
+btn2.addEventListener('click', () => {
+    container.style.background = "#00224d";
+    displayDiv.style.background = "#5d0e41";
+    btns.style.background = "#5d0e41";
+    history.style.background = "#5d0e41";
+    btnsInput.forEach(btnInput => {
+        btnInput.style.background = "#ff204e";
+        btnInput.style.color = "#fff";
+    });
+    reset.style.background = "#00224d";
+    del.style.background = "#00224d";
+    equal.style.background = "#a0153e";
+    progress.style.background = "#5d0e41";
+});
+btn3.addEventListener('click', () => {
+    container.style.background = "#7aa2e3";
+    displayDiv.style.background = "#6ad4dd";
+    btns.style.background = "#6ad4dd";
+    history.style.background = "#6ad4dd";
+    btnsInput.forEach(btnInput => {
+        btnInput.style.background = "#f8f6f3";
+        btnInput.style.color = "#000";
+    });
+    reset.style.background = "#7aa2e3";
+    reset.style.color = "#fff";
+    del.style.background = "#7aa2e3";
+    del.style.color = "#fff";
+    equal.style.background = "#97e7e1";
+    progress.style.background = "#6ad4dd";
+});
 
 
 
