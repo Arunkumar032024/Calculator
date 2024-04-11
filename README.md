@@ -13,3 +13,5 @@ Add 3 different theme that is change by a switchbar button.
 
 <br>
 Add history save and clear functionality
+<br>
+Add favicon
