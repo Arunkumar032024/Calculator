@@ -1,17 +1,25 @@
-# Calculator
-<br>
-This is simple calculator using HTML, CSS, JAVASCRIPT. It has 3 different user interface. It has also a feature called history to save operation history. In this calculator, a clear history button which clears the save history.
+# Responsive Calculator with Theme Switcher  
 
-<br>
-Add files like index.html, app.css, app.js
+A stylish and functional calculator built using **HTML**, **CSS**, and **JavaScript**. It is responsive, user-friendly, and comes with three unique themes to suit different preferences.  
 
-<br>
-Add javascript functionality to the calculator, now it will work properly as an real world calculator.
+## Features  
+- 📱 **Responsive Design**: Optimized for all devices.  
+- 🎨 **Theme Switcher**: Choose between three elegant themes.  
+- ✨ **Real-Time Calculation**: Perform basic arithmetic operations efficiently.  
+- 🧹 **Clear and Reset Options**: Easy to clear inputs or reset the entire calculation.  
 
-<br>
-Add 3 different theme that is change by a switchbar button.
+## Live Demo  
+Explore the calculator here: [Live Demo](https://arunkumar032024.github.io/Calculator/)  
 
-<br>
-Add history save and clear functionality
-<br>
-Add favicon
+## Technologies Used  
+- HTML  
+- CSS  
+- JavaScript  
+
+## Screenshots  
+![preview](./preview.png)  
+
+## Installation  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/arunkumar032024/Calculator.git
